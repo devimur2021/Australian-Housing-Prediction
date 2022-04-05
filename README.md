@@ -1,5 +1,5 @@
 # Project Name
-Lending Club Case Study
+Australian Housing Prediction
 
 
 ## Table of Contents
@@ -12,39 +12,52 @@ Lending Club Case Study
 
 ## General Information
 
-Lending Club Case study is based on the dataset from Fintech Domain.
-The analysis done helps to aid Digtial Lending organizations to determine the financial characteristics of a Loan borrower.
-The observation from past history and the correlation of data with new customers will help the lending organization identify potential customers vs defaulters.
-This will help the organization make decision to accept or reject the loan application.
+A US-based housing company named Surprise Housing has decided to enter the Australian market. The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price. For the same purpose, the company has collected a data set from the sale of houses in Australia. The data is provided in the CSV file below.
 
-- Dataset         : Loan.csv
-- Data Dictionay  : Data_Dictionary.xlsx
+- Dataset         : train.csv
+- Data Dictionay  : Data_Description.pdf
+
+## Objective:
+Build a Model to identify variables influencing Pricing of Housing unit by Area. To understand the pricing dynamics in a new market
+The company wants to know:
+
+- Which variables are significant in predicting the price of a house, and
+- How well those variables describe the price of a house.
 
 ## Approach
 Steps followed in the data analysis
 - Load the data
-- Data Cleaning
-- Handle Missing Data
-- Handle Outlier
-- Sanity Check
-- Generate Dervied metrics
-- UniVariate Analysis
-- BiVariate Analysis
-- Segmented UniVariate Analysis
-
+- Inspect the data
+- Perform EDA
+  - Data Cleaning
+  - Handle Missing Data
+  - Handle Outlier
+  - Sanity Check
+  - Generate Dervied metrics
+  - UniVariate Analysis
+  - BiVariate Analysis
+  - Segmented UniVariate Analysis
+ -Split Data to Train and Test
+ -Build the Model 
+  - Liner Regression
+  - Tuning hyperparameter 
+      - Ridge
+      - Lasso
+  -Evaluate the model
+ 
 ## Conclusions
-Relevant Study content and conclusions are included in the Project presentation
+Relevant Python notebook and Theory question paper is part of the git hub repo
 
 
 ## Technologies Used
 - Jupiter Notebook
 - Programming : Python 3.x
-- Libraries : Numpy,Pandas,Matplotlib,Seaborn,DateTime
+- Libraries : sklearn ,Numpy,Pandas,Matplotlib,Seaborn,DateTime
 
 
 ## Acknowledgements
 - This project was assignment from UpGrad as part of course curriculum
-- Reference : Pandas Documentation https://pandas.pydata.org/pandas-docs/stable/reference/frame.html
+- Reference : sklearn Documentation : https://scikit-learn.org/stable/index.html
 
 
 ## Contact
