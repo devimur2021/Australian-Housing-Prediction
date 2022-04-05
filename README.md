@@ -4,6 +4,7 @@ Australian Housing Prediction
 
 ## Table of Contents
 * [General Info](#general-information)
+* [Objective](#Goal of the project)
 * [Approach](#technologies-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
