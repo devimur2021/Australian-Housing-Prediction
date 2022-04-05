@@ -18,7 +18,7 @@ A US-based housing company named Surprise Housing has decided to enter the Austr
 - Dataset         : train.csv
 - Data Dictionay  : Data_Description.pdf
 
-## Objective:
+## Objective
 Build a Model to identify variables influencing Pricing of Housing unit by Area. To understand the pricing dynamics in a new market
 The company wants to know:
 
